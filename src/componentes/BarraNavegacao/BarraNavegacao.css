@@ -1,0 +1,38 @@
+nav {
+  background-color: #46b3bb;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 25px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #515f69;
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: white;
+    width: 150px;
+    padding: 10px;
+  }
+
+  .button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}

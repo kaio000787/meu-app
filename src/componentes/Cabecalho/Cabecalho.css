@@ -1,0 +1,10 @@
+header img {
+  height: 150px;
+  border-radius: 80px;
+}
+
+header {
+  background-color: #8697a6;
+  text-align: center;
+  color: #ffffff;
+}

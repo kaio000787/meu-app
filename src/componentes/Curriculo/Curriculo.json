@@ -1,0 +1,66 @@
+{
+    "resumo": "Nome: Kaio César Silva Martins\r\n    - Endereço: Usina Santa Terezinha, Água Preta, PE\r\n    - Telefone: (81) 98246-2343\r\n    - E-mail: ithachi666ff@gmail.com\r\n    - Data de Nascimento: 28/06/2005\r\n    - Estado Civil: Solteiro\r\n    \r\n    Objetivo Profissional:\r\n    Busco uma oportunidade para iniciar minha carreira no mercado de trabalho e desenvolver habilidades.",
+    "experienciaAcademica": [
+        {
+            "titulo":"Ensino Médio Completo:EREM João Vicente de Queiroz,Água Preta/PE",
+            "descrição": "Ensino Médio Completo: EREM João Vicente de Queiroz, Água Preta/PE",
+            "dataInicio": "2008",
+            "dataFim": "2023"
+        }, 
+        {
+            "titulo": "Ensino Médio Completo:EREM João Vicente de Queiroz,Água Preta/PE",
+            "descrição": "Ensino Médio Completo: EREM João Vicente de Queiroz, Água Preta/PE",
+            "dataInicio": "2008",
+            "dataFim": "2023"
+        }, 
+        {
+            "titulo": "Ensino Médio Completo:EREM João Vicente de Queiroz,Água Preta/PE",
+            "descrição": "Ensino Médio Completo: EREM João Vicente de Queiroz, Água Preta/PE",
+            "dataInicio": "2008",
+            "dataFim": "2023"
+        }, 
+        {
+            "titulo":"Ensino Médio Completo:EREM João Vicente de Queiroz,Água Preta/PE",
+            "descrição": "Ensino Médio Completo: EREM João Vicente de Queiroz, Água Preta/PE",
+            "dataInicio": "2008",
+            "dataFim": "2023"
+        },  {
+            "titulo":"Ensino Médio Completo:EREM João Vicente de Queiroz,Água Preta/PE",
+            "descrição": "Ensino Médio Completo: EREM João Vicente de Queiroz, Água Preta/PE",
+            "dataInicio": "2008",
+            "dataFim": "2023"
+        }, 
+        {
+            "titulo":"Ensino Médio Completo:EREM João Vicente de Queiroz,Água Preta/PE",
+            "descrição": "Ensino Médio Completo: EREM João Vicente de Queiroz, Água Preta/PE",
+            "dataInicio": "2008",
+            "dataFim": "2023"
+        }
+    ],
+    "objetivoProfissional": [
+        {
+            "titulo":"futoro desenvolvedor de Software do comeia",
+            "descrição": "Ensino Médio Completo: EREM João Vicente de Queiroz, Água Preta/PE",
+            "dataInicio": "2024",
+            "dataFim": "2025"
+        },
+        {
+            "titulo":"futoro desenvolvedor de Software do comeia",
+            "descrição": "Ensino Médio Completo: EREM João Vicente de Queiroz, Água Preta/PE",
+            "dataInicio": "2024",
+            "dataFim": "2025"
+        },
+        {
+            "titulo":"futoro desenvolvedor de Software do comeia",
+            "descrição": "Ensino Médio Completo: EREM João Vicente de Queiroz, Água Preta/PE",
+            "dataInicio": "2024",
+            "dataFim": "2025"
+        },
+        {
+            "titulo":"futoro desenvolvedor de Software do comeia",
+            "descrição": "Ensino Médio Completo: EREM João Vicente de Queiroz, Água Preta/PE",
+            "dataInicio": "2024",
+            "dataFim": "2025"
+        }
+    ]    
+}
