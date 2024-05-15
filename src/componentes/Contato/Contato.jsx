@@ -17,7 +17,7 @@ function Contato() {
 
     const numeroWhatapp = import.meta.env.VITE_WHATSAPP_NUMBER; 81982562343
 
-    const linkWhatapp = `https://wa.me/${numeroWhatapp}?text=${encodeURIComponent(texto)}`;
+    const linkWhatapp = `https://api.whatsapp.com/send?${numeroWhatapp}?text=${encodeURIComponent(texto)}`;
 
     window.open(linkWhatapp, `_blank`);
 
