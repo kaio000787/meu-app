@@ -1,5 +1,5 @@
 nav {
-  background-color: #46b3bb;
+  background-color: #481157;
   text-align: center;
 }
 
@@ -17,7 +17,7 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
-  color: #515f69;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 600px) {

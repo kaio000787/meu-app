@@ -7,14 +7,14 @@ function Curriculo() {
     return (
         <>
             <section>
-                <h2>curriculo</h2>
+                <h2 style={{textAlign: "center"}}>curriculo</h2>
                 <p>{data.resumo}</p>
             </section>
 
             <section>
 
-                <h2>acadêmico</h2>
-               <ul> 
+                <h2 style={{textAlign: "center"}}>acadêmico</h2>
+               <ul style={{textAlign: "center"}}>
                     {data.experienciaAcademica.map((item, index) => (
                         <li key={index}>
                             <b>({item.dataInicio} - {item.dataFim})</b> {item.titulo};
@@ -25,8 +25,8 @@ function Curriculo() {
             </section>
             
             <section>
-                <h2>objetivo profissional</h2>
-               <ul> 
+                <h2 style={{textAlign: "center"}}>objetivo profissional</h2>
+               <ul style={{textAlign: "center"}}> 
                    {data.objetivoProfissional.map((item, index) => (
                         <li key={index}>
                             <b>({item.dataInicio} - {item.dataFim})</b> {item.titulo};
