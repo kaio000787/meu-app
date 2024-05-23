@@ -88,6 +88,8 @@ function Contato() {
           <textarea
             name="input-msg"
             id="input-msg"
+            placeholder="Digite sua mensagem"
+            required
             cols="30"
             rows="10"
             value={mensagem}
