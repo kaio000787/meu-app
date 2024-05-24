@@ -8,12 +8,13 @@ body {
   border: 0;
   color: #515f69;
   padding: 26px;
+  border-radius: 8px;
 }
 
 .button:hover {
   cursor: pointer;
   color: #ffffff;
-  background-color: rgb(34, 34, 34);
+  background-color: #481157;
 }
 
 .invalid {
