@@ -1,15 +1,16 @@
 import React from "react";
-import kaioAvatar from "../../assets/kaio avatar.jpeg";
 
 import "./Cabecalho.css";
 
+function Cabecalho(props) {
 
-function Cabecalho() {
+     const { nome, cargo, foto } = props.informacao;
+
     return (
         <header> 
-            <img src={kaioAvatar} alt="foto de rosto de kaio"/>
-            <h1 id="nome-perfil">Kaio César</h1>
-            <h3 id="eventoSubtitulo">Desenvolvedor de software</h3>
+            <img src={foto} alt="foto de rosto de kaio"/>
+            <h1 id="nome-perfil">{ nome }</h1>
+            <h3 id="eventoSubtitulo">{ cargo }</h3>
         </header>
    )
 }

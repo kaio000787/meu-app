@@ -1,43 +1,47 @@
 import React from "react";
 
 import "./Curriculo.css";
-import data from "./Curriculo.json";
 
-function Curriculo() {
+function Curriculo(props) {
+    const { resumo, experienciaAcademica, experienciaProfissional } = props.curriculo;
+
+    if(!resumo || !experienciaAcademica || !experienciaProfissional) {
+        return <p>Carregando...</p>;
+    }
+
     return (
         <>
             <section>
-                <h2 style={{textAlign: "center"}}>curriculo</h2>
-                <p>{data.resumo}</p>
+                <h2>Resumo</h2>
+                <p>{resumo}</p>
             </section>
 
             <section>
-
-                <h2 style={{textAlign: "center"}}>acadêmico</h2>
-               <ul style={{textAlign: "center"}}>
-                    {data.experienciaAcademica.map((item, index) => (
+                <h2>Acadêmico</h2>
+                <ul style={{textAlign: "left"}}>
+                    {experienciaAcademica.map((item, index) => (
                         <li key={index}>
-                            <b>({item.dataInicio} - {item.dataFim})</b> {item.titulo};
-                        </li>
+                            <b>({item.anoInicio} - {item.anoFim})</b> {item.titulo}:
+                            </li>
                     ))}
                 </ul>
-                
-            </section>
-            
-            <section>
-                <h2 style={{textAlign: "center"}}>objetivo profissional</h2>
-               <ul style={{textAlign: "center"}}> 
-                   {data.objetivoProfissional.map((item, index) => (
+                </section>
+
+                <section>
+                <h2>Profissional</h2>
+                <ul style={{textAlign: "left"}}>
+                    {experienciaProfissional.map((item, index) => (
                         <li key={index}>
-                            <b>({item.dataInicio} - {item.dataFim})</b> {item.titulo};
-                        </li>
+                            <b>({item.anoInicio} - {item.anoFim})</b> {item.titulo}:
+                            </li>
                     ))}
                 </ul>
+                </section>
 
-            </section>
         </>
-
-    )
+    );
 }
 
 export default Curriculo;
+            
+                 

@@ -2,11 +2,9 @@ import React from "react";
 
 import ItemPortfolio from "../ItemPortfolio/ItemPortfolio";
 
-import "./Portfolio.css";
-import portfolio from "./Portfolio.json";
+import "./Portfolio.css"
 
-
-function Portfolio() {   
+function Portfolio({portfolio}) {   
                   
     return (
         <main>
@@ -16,8 +14,8 @@ function Portfolio() {
                     <ItemPortfolio
                         key={index}
                         link={item.link}
-                        image={item.Image + (index + 1)} 
-                        title={item.title + (index + 1)}
+                        imagem={item.imagem}
+                        title={item.title}
                     ></ItemPortfolio>  
           )}
     
