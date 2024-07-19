@@ -14,7 +14,7 @@ function Portfolio({portfolio}) {
                     <ItemPortfolio
                         key={index}
                         link={item.link}
-                        imagem={item.imagem}
+                        image={item.image}
                         title={item.title}
                     ></ItemPortfolio>  
           )}
