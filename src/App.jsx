@@ -17,9 +17,9 @@ import Contato from "./componentes/Contato/Contato";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  const [informacao, setInformacoes] = React.useState({});
-  const [curriculo, setCurriculo] = React.useState({});
-  const [portfolio, setPortfolio] = React.useState({});
+  const [informacao, setInformacoes] = React.useState([]);
+  const [curriculo, setCurriculo] = React.useState([]);
+  const [portfolio, setPortfolio] = React.useState([]);
 
   const fetchDados = async () => {
     try {
